@@ -3280,7 +3280,10 @@ input[type="button"].btn-block {
   white-space: nowrap; }
   .navbar-brand:hover, .navbar-brand:focus {
     text-decoration: none; }
-
+.navbar-brand > img {
+width: 20%;
+border-radius: 20%;
+  }
 .navbar-nav {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -7524,7 +7527,9 @@ h1, h2, h3, h4, h5,
       .slider-text .breadcrumbs span a {
         color: #fff; }
   .slider-text .bread {
-    font-weight: 400 !important; }
+    font-weight: 400 !important; 
+  font-size: 2.5rem;
+  }
   .slider-text .btn-outline-white {
     border: 1px solid rgba(255, 255, 255, 0.4) !important; }
     .slider-text .btn-outline-white span {
