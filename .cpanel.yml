@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home2/techbdin/public_html/abaglobal/
+    - export DEPLOYPATH=/home2/techbdin/repositories/Abaglobal
     - /bin/cp -R * $DEPLOYPATH
