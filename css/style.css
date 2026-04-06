@@ -3255,7 +3255,8 @@ input[type="button"].btn-block {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  padding: 0.5rem 1rem; }
+  padding: 2rem 1rem;
+ }
   .navbar > .container,
   .navbar > .container-fluid {
     display: -webkit-box;
@@ -3324,6 +3325,24 @@ height: 10%;
   background: #2b2929;
   z-index: 1000;
 }
+@media (min-width: 1034px) {
+.navbar-collapse {
+  -ms-flex-preferred-size: 100%;
+  flex-basis: 100%;
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: absolute;
+  top: 20%;
+  left: 0;
+  right: 0;
+  background: none;
+  z-index: 1000;
+}
+   }
 
 .navbar-toggler {
   padding: 0.25rem 0.75rem;
