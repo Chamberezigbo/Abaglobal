@@ -3261,14 +3261,15 @@ input[type="button"].btn-block {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
+    /* background-color: red; */
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
-    justify-content: space-between; }
+    justify-content: space-between; 
+  height: 60px;
+  }
 
 .navbar-brand {
   display: inline-block;
@@ -3281,8 +3282,8 @@ input[type="button"].btn-block {
   .navbar-brand:hover, .navbar-brand:focus {
     text-decoration: none; }
 .navbar-brand > img {
-width: 50%;
-height: 40%;
+width: 80%;
+height: 10%;
   }
 .navbar-nav {
   display: -webkit-box;
@@ -3315,7 +3316,14 @@ height: 40%;
   flex-grow: 1;
   -webkit-box-align: center;
   -ms-flex-align: center;
-  align-items: center; }
+  align-items: center;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background: #2b2929;
+  z-index: 1000;
+}
 
 .navbar-toggler {
   padding: 0.25rem 0.75rem;
