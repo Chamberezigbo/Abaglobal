@@ -55,6 +55,8 @@ html {
 article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block; }
 
+
+
 /* my own custom styles */
 
 body {
@@ -3269,8 +3271,14 @@ input[type="button"].btn-block {
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between; 
-  height: 60px;
+  height: -60px;
+  width: 100%;
   }
+    @media (max-width: 1024px) {
+    .navbar > .container{
+      height: 50px;
+    }
+    }
 
 .navbar-brand {
   display: inline-block;
@@ -3283,8 +3291,15 @@ input[type="button"].btn-block {
   .navbar-brand:hover, .navbar-brand:focus {
     text-decoration: none; }
 .navbar-brand > img {
-width: 80%;
-height: 10%;
+width: 90%;
+  }
+   @media (min-width: 1034px) {
+  .navbar-brand > img {
+width: 50%;
+margin-top: -70px;
+margin-left: -70px;
+
+  }
   }
 .navbar-nav {
   display: -webkit-box;
